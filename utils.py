@@ -2,7 +2,7 @@ import json
 
 
 from main.posts import Posts
-from config import post_path
+from config import POSTS_FILE_PATH
 
 # path = "../posts.json"
 
@@ -25,7 +25,7 @@ def convert_posts_to_class(posts):
 
 
 def upload_posts_to_json(posts):
-    with open(post_path, "w", encoding="utf-8") as file:
+    with open(POSTS_FILE_PATH, "w", encoding="utf-8") as file:
         json.dump(posts, file, ensure_ascii=False, indent=4)
 
 
