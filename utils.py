@@ -4,8 +4,6 @@ import json
 from main.posts import Posts
 from config import POSTS_FILE_PATH
 
-# path = "../posts.json"
-
 
 def load_posts_from_json(post_path):
     with open(post_path, "r", encoding="utf-8") as file:
@@ -29,19 +27,13 @@ def upload_posts_to_json(posts):
         json.dump(posts, file, ensure_ascii=False, indent=4)
 
 
-
-
 def get_posts_by_content(posts, subcontent):
-
     posts_ = convert_posts_to_class(posts)
-    searched_post = []
-    for _ in posts_:
-        if subcontent.lower() in _.content.lower():
-            searched_post.append(_)
-        else:
-            continue
-    return searched_post
+    filtered_posts = []
+    for post in posts_:
+        if subcontent.lower() in post.content.lower():
+            filtered_posts.append(post)
 
-# "../posts.json"
+    return filtered_posts
 
-# print(get_posts_by_content("../posts.json", "Ага"))
+

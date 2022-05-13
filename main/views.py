@@ -10,7 +10,7 @@ main_blueprint = Blueprint('main_blueprint', __name__, static_folder="/static/cs
 def main_page():
     return render_template("index.html")
 
-@main_blueprint.route('/search')
+@main_blueprint.route('/search/')
 def search_page():
     s = request.args.get("s", "")
     posts = load_posts_from_json(POSTS_FILE_PATH)

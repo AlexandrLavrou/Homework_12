@@ -52,71 +52,27 @@
         "content": "темная киска"
     },
     {
-        "pic": "uploads/images/cat.png",
-        "content": "появись киска"
+        "pic": "uploads/images/Olga.jpg",
+        "content": "сьиб"
     },
     {
-        "pic": "/uploads/images/cat.png",
-        "content": "Киска киска появись"
+        "pic": "./uploads/images/Vika.jpg",
+        "content": "и"
     },
     {
-        "pic": "/uploads/images/cat.png",
-        "content": "Темная киска\r\n"
+        "pic": "uploads/images/Olga.jpg",
+        "content": "65\r\n"
     },
     {
-        "pic": "/uploads/images/cat.png",
-        "content": ""
+        "pic": "uploads/images/Vika.jpg",
+        "content": "641"
     },
     {
-        "pic": "/uploads/images/",
-        "content": "1231"
+        "pic": "uploads/images/Olga.jpg",
+        "content": "wegr"
     },
     {
-        "pic": "/uploads/images/",
-        "content": "сорок восемь"
-    },
-    {
-        "pic": "/uploads/images/cat.png",
-        "content": "сорок восемь"
-    },
-    {
-        "pic": "/uploads/images/",
-        "content": "без фото"
-    },
-    {
-        "pic": "/uploads/images/",
-        "content": "текс без фото"
-    },
-    {
-        "pic": "/uploads/images/cat.png",
-        "content": ""
-    },
-    {
-        "pic": "/uploads/images/",
-        "content": "Интересно, почему мы отваливаемся?"
-    },
-    {
-        "pic": "/uploads/images/",
-        "content": "Интересно, почему мы отваливаемся?"
-    },
-    {
-        "pic": "/uploads/images/",
-        "content": "проверяем без картинки"
-    },
-    {
-        "pic": "/uploads/images/cat.png",
-        "content": "с картинкой"
-    },
-    {
-        "pic": "/uploads/images/",
-        "content": "без картинки сохранит?"
-    },
-    {
-        "pic": "/uploads/images/",
-        "content": ""
-    },
-    {
-        "pic": "/uploads/images/cat.png",
-        "content": "Просто проверка"
+        "pic": "uploads/images/Olga.jpg",
+        "content": "cfgh"
     }
 ]
