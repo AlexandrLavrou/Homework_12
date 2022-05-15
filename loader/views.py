@@ -43,11 +43,10 @@ def upload_page():
     else:
         file.save(os.path.join(UPLOAD_FOLDER, filename))
         logger.debug(f"Сохрание файла {os.path.join(UPLOAD_FOLDER, filename)}")
-        # except PermissionError:
-        #     return "<h1>Что за пост без фото?</h1>"
+
         posts.append({'pic': f"/{os.path.join(UPLOAD_FOLDER, filename)}", 'content': content})
         logger.debug(f"Добавление поста в json файл")
-        upload_posts_to_json(posts)
 
+        upload_posts_to_json(posts)
         pic = f"/{os.path.join(UPLOAD_FOLDER, filename)}"
         return render_template("post_uploaded.html", pic=pic, content=content)
